@@ -1,0 +1,195 @@
+/* Mykisib CSS File */
+
+
+@font-face {font-family: 'beth';
+			  src: url(Beth-Ellen-2.0.otf);
+			  font-weight: normal;
+			  font-style: normal; }
+
+@font-face {font-family: 'hand';
+			  src: url(VAG-HandWritten.otf);
+			  font-weight: normal;
+			  font-style: normal; }
+
+@font-face {font-family: 'res'; 
+            src: url(Reswysokr.otf);
+            font-weight: normal;
+            font-style: normal; }
+
+@font-face {font-family: 'car'; 
+            src: url(Caroni-Regular.otf);
+            font-weight: normal;
+            font-style: normal; }
+
+@font-face {font-family: 'imp'; 
+            src: url(Impact_Label_Reversed.ttf);
+            font-weight: normal;
+            font-style: normal; }
+
+
+body { font-family: 'car', verdana, arial, sans-serif;
+       font-size:25px;
+       color: black;
+       line-height:1.5;
+       margin: 5px 10px;
+       padding: 5px;
+       background: #5f9ef0 url(images/307bd.png); }
+
+
+footer, nav { font-family: 'imp', georgia, serif;
+	      font-size: 20px; 
+	      color: darkslateblue; }
+
+
+h1, h2, h3, h4, h5, h6 { font-family: 'hand', "Brush Script MT", cursive; }
+
+h1 { font-size: 200%; }
+
+h2 { font-size: 150%; 
+     color: darkslateblue; }
+
+h1, h2, h3, h4, ol, ul, table { margin: 5px 10px 5px; }
+
+
+p { margin: 2px 15px 15px; }
+
+
+nav { text-align: left; 
+      position: sticky;
+      top: 0;
+      padding: 2px;
+      margin: 0px;
+      background: transparent url(images/navb.png) no-repeat; }
+
+
+form { background-color: transparent;
+       width: 150px;
+       height: 25px;
+       border: 0px solid mediumslateblue;
+       border-radius: 5px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       float: right; }
+
+input { all: unset;
+        font: 20px 'imp', georgia, serif;
+        color: deeppink;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px; }
+
+button { all: unset;
+         cursor: pointer;
+         width: 44px;
+         height: 44px; }
+
+svg { color: mediumslateblue;
+      fill: currentColor;
+      width: 24px;
+      height: 24px;
+      padding: 10px; }
+
+
+li { display: inline;
+     padding: 10px; }
+
+ol { padding-left:0;
+     margin-left: 5px; }
+
+dl { margin: 2px 10px; }
+dt { margin-top: 5px; }
+dd { margin-bottom: 10px; }
+
+
+caption, th, td { text-align: left; }
+
+
+abbr { text-decoration-color: mediumslateblue;
+       text-decoration-style: solid; }
+
+
+img { padding: 5px;
+      border: 2px solid mediumslateblue;
+      background-color: white;
+      margin: 5px 10px; }
+
+img { float: left; }
+
+
+a { color: deeppink;
+    font-weight: bold;
+    text-decoration: none; }
+
+a:visited { color: mediumslateblue; }
+
+a:hover, a:focus, a:active { background-color: #ffde59; border-bottom-color: white; margin: auto; }
+
+
+div#wrapper { width: 728px;
+	      margin-left: auto;
+	      margin-right: auto;
+	      margin-top: 10px;
+	      margin-bottom: 10px;
+	      background-color: #d8eff3;
+	      background-repeat: repeat-y;
+	      background-position: left top;
+	      background-attachment: scroll;
+	      border: 4px solid mediumslateblue; }
+
+
+header { height: 110px; margin-bottom: 10px; }
+header h1, header p { text-indent: -9999999px; }
+
+header { background: #d8eff3 url(images/bannert.png) no-repeat; }
+
+
+footer { margin: 10px 10px;
+         background: white url(images/footb.png) no-repeat; 
+	 padding: 5px 50px; }
+
+address { font-style: normal; }
+
+
+
+/* styling for intro page layout */
+
+.ttl { font-family: 'beth', "Brush Script MT", cursive;
+       color: Deeppink;
+       margin: 10px;
+       padding: 5px; }
+
+.Myself { display: grid;
+          align-items: start;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 5px; }
+
+.Mypic { justify-self: center; }
+
+.socials { grid-column-start: 2; grid-column-end: 4; align-self: center; }
+
+
+/* styling for character page */
+
+.Mykse, .Miko, .NMcrew, .B7crew { display: grid;
+                                  align-items: start;
+                                  grid-template-columns: 1fr 1fr 1fr;
+                                  column-gap: 5px; }
+
+.NMcrew, .B7crew { grid-auto-rows: 255px; }
+
+.mi, .mii, .nmci, .b7ci { grid-column-start: 1; grid-column-end: 2; justify-self: center; }
+
+.mb, .mib, .nmcl, .b7cl { grid-column-start: 2; grid-column-end: 4; }
+
+.nmcl, .b7cl { column-count: 3; align-self: center; }
+
+
+/* styling for excerpts page */
+
+div#prologue { margin: 10px 10px;
+               background-color: white; 
+	       padding: 8px; 
+               font-family: verdana, arial, sans-serif;
+               font-size:15px;
+               color: black; }
