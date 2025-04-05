@@ -145,7 +145,7 @@ header { background: #d8eff3 url(images/bannert.png) no-repeat; }
 
 
 footer { margin: 10px 10px;
-         background: white url(images/footb.png) no-repeat; 
+         background: #d8eff3 url(images/footb.png) no-repeat; 
 	 padding: 5px 50px; }
 
 address { font-style: normal; }
